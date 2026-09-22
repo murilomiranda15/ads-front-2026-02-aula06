@@ -1,0 +1,12 @@
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            @for (item of items; track $index) {
+            <div class="col-12 col-sm-6 col-lg-4">
+                <app-card [imagePathCard]="item.imagePathCard" [textoImgAlt]="item.textoImgAlt" [tituloCard]="item.tituloCard" [textoCorpo]="item.textoCorpo" [textoBotao]="item.textoBotao">
+                </app-card>
+            </div>
+            }
+        </div>
+    </div>
+</section>
