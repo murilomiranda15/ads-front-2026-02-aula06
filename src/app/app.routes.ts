@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { Home } from './componentes/home/home';
 import { Games } from './componentes/games/games';
+import { LoginNgif } from './componentes/login-ngif/login-ngif';
 
 export const routes: Routes = [
     {
@@ -12,7 +13,12 @@ export const routes: Routes = [
         component: Games
     },
     {
+        path: 'login',
+        component: LoginNgif
+    },
+    {
         path: '**',
         redirectTo: ''
     }
+    
 ];
