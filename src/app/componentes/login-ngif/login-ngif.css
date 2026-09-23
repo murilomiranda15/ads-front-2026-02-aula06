@@ -256,7 +256,7 @@
 }
 
 /* Botão Principal */
-.login-card button[type="submit"] {
+.login-card button[class="btn btn-primary"] {
     margin-top: 0.5rem;
     padding: 0.95rem;
     background: var(--gamer-gradient);
@@ -273,13 +273,13 @@
     box-shadow: 0 4px 20px rgba(138, 43, 226, 0.45);
 }
 
-.login-card button[type="submit"]:hover {
+.login-card button[class="btn btn-primary"]:hover {
     background: var(--gamer-gradient-hover);
     box-shadow: 0 6px 25px rgba(0, 229, 255, 0.6);
     transform: translateY(-2px);
 }
 
-.login-card button[type="submit"]:active {
+.login-card button[class="btn btn-primary"]:active {
     transform: translateY(0);
     box-shadow: 0 2px 10px rgba(138, 43, 226, 0.4);
 }
